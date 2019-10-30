@@ -1,0 +1,77 @@
+
+/* Reset */
+
+*{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+/* General Styles */
+
+body{
+	color: #fefefe;
+	font-size: 14px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: #ccc;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	color: #54a6de;
+}
+
+/* Custom Styles */
+
+.container{
+	width: 70%;
+	margin: 10px auto;
+	overflow: auto;
+}
+
+#navbar{
+	display: block;
+	height: 40px;
+	background: #13181d;
+}
+
+#navbar a{
+	color: #fff;
+	display: inline-block;
+	height: 40px;
+	line-height: 37px;
+	padding: 0 15px;
+}
+
+#navbar a.active, #navbar a:hover{
+	background: #333;
+}
+
+#main{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	min-height: 475px;
+}
+
+#main li{
+	float: left;
+	height: 96px;
+	list-style: none;
+	margin: 6px;
+	position: relative;
+	width: 125px;
+	box-shadow: 0 0 5px #000;
+}
+
+#main ul.hidden{
+	display: none;
+}
+
+footer{
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+}
